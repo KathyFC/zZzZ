@@ -1,0 +1,2 @@
+class PagsController < ApplicationController
+end
