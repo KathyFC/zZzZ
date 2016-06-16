@@ -1,4 +1,22 @@
+
 <p>PAGE 2</p>
 <%@users.each do |i|%>
 	<%= i %><br />
 	<%end%>
+
+<div class="container">
+	<div class="col-md-6">
+		<h1 class="titulo">PAISAJE 1</h1>
+		<div class="col-md-12">
+			<%= image_tag 'img1.jpg', class:'imagenes' %>
+		</div>
+	</div>
+
+	<div class="col-md-6">
+		<h1 class="titulo">PAISAJE 2</h1>
+		<div class="col-md-12">
+			<%= image_tag 'img2.jpg', class:'imagenes' %>
+		</div>
+	</div>
+</div>
+
