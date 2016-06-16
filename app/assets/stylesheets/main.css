@@ -7,3 +7,9 @@
 	text-align: center;
 	color: pink;
 }
+
+.imgfondo{
+	background-image: url("/assets/img1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
